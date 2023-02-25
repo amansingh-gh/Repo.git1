@@ -1,0 +1,121 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.bigcontainer{
+    background-color: brown;
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: whitesmoke;
+    width: 55rem;
+    height: 42rem;  
+    border-radius: 12px;
+    }
+.navbar{
+    /* background-color: blue; */
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    text-decoration: none;
+    margin: 12px 8px;
+    color: white;
+    
+}
+.navbar li{
+    float:left;
+    padding: 12px;
+    list-style: none;
+    }
+a{
+    /* text-decoration-color: rgb(255, 90, 255); */
+    text-decoration: none;
+    color: black;
+}
+.smallbox{
+    /* background-color: red; */
+    color: black;
+    height: 40px;
+    width: 20px;
+}
+li:hover{
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: rgb(233, 244, 233);
+  transition: transform .2s;
+  transform: scale(1.1);   
+}
+.container1{
+    /* background-color: greenyellow; */
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texts{
+    font-family: 'Shantell Sans', cursive;
+}
+span{
+    font-family: 'Roboto Slab', serif;
+    /* vertical-align: super; */
+}
+.imgs{
+    border-radius: 80px;
+}
+.workcontainer{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.container3{
+    /* background-color: blueviolet; */
+    overflow: hidden ;
+    display: flex;
+    height: 300px;
+    width: auto;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+button{
+    border: 2px solid black;
+}
+.txt1{
+    /* background-color: aqua; */
+    font-family: 'Shantell Sans', cursive;
+    
+    width: 13.2rem;
+}
+.smalltxt1{
+    font-family: 'Roboto Slab', serif;
+    padding: -1px;
+}
+.txt2{
+    /* background-color: green; */
+    font-family: 'Shantell Sans', cursive;
+    width: 13.2rem;
+}
+.smalltxt2{
+    font-family: 'Roboto Slab', serif;
+    padding: -1px;
+}
+.txt3{
+    /* background-color:rgb(226, 62, 62); */
+    font-family: 'Shantell Sans', cursive;
+    width: 13.2rem;
+}
+.smalltext3{
+    font-family: 'Roboto Slab', serif;
+    padding: -1px;
+}
